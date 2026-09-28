@@ -36,12 +36,12 @@ const ChargesTable = () => {
         {
             key: '3',
             type: 'NRI account (offline only)',
-            charges: '₹ 500',
+            charges: 'Rs 500',
         },
         {
             key: '4',
             type: 'Partnership, LLP, HUF, or Corporate accounts (offline only)',
-            charges: '₹ 500',
+            charges: 'Rs 500',
         },
     ];
 

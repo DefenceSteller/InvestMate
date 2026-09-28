@@ -57,26 +57,26 @@ const Charges = () => {
                         NRI brokerage charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        <li>₹100 per order for futures and options.</li>
-                        <li>For a non-PIS account, 0.5% or ₹100 per executed order for equity (whichever is lower).</li>
-                        <li>For a PIS account, 0.5% or ₹200 per executed order for equity (whichever is lower).</li>
-                        <li>₹500 + GST as yearly account maintenance charges (AMC) charges.</li>
+                        <li>Rs 100 per order for futures and options.</li>
+                        <li>For a non-PIS account, 0.5% or Rs 100 per executed order for equity (whichever is lower).</li>
+                        <li>For a PIS account, 0.5% or Rs 200 per executed order for equity (whichever is lower).</li>
+                        <li>Rs 500 + GST as yearly account maintenance charges (AMC) charges.</li>
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Account with debit balance
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        If the account is in debit balance, any order placed will be charged ₹40 per executed order instead of ₹20 per executed order.
+                        If the account is in debit balance, any order placed will be charged ₹40 per executed order instead of Rs 20 per executed order.
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Charges for Investor's Protection Fund Trust (IPFT) by NSE
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        <li>  Equity and Futures - ₹10 per crore + GST of the traded value.</li>
-                        <li>Options - ₹50 per crore + GST traded value (premium value).</li>
-                        <li>Currency - ₹0.05 per lakh + GST of turnover for Futures and ₹2 per lakh + GST of premium for Options.</li>
+                        <li>  Equity and Futures - Rs 10 per crore + GST of the traded value.</li>
+                        <li>Options - Rs 50 per crore + GST traded value (premium value).</li>
+                        <li>Currency - Rs 0.05 per lakh + GST of turnover for Futures and Rs 2 per lakh + GST of premium for Options.</li>
                     </Paragraph>
                 </Col>
 
@@ -93,65 +93,65 @@ const Charges = () => {
                         SEBI Charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        Charged at ₹10 per crore + GST by Securities and Exchange Board of India for regulating the markets.
+                        Charged at Rs 10 per crore + GST by Securities and Exchange Board of India for regulating the markets.
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         DP (Depository participant) charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        ₹13 + GST per scrip (irrespective of quantity), on the day, is debited from the trading account when stocks are sold. This is charged by the depository (CDSL) and depository participant (Zerodha).
+                        Rs 13 + GST per scrip (irrespective of quantity), on the day, is debited from the trading account when stocks are sold. This is charged by the depository (CDSL) and depository participant (Zerodha).
                     </Paragraph>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        Female demat account holders (as first holder) will enjoy a discount of ₹0.25 per transaction.
+                        Female demat account holders (as first holder) will enjoy a discount of Rs 0.25 per transaction.
                     </Paragraph>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        Debit transactions of mutual funds & bonds get an additional discount of ₹0.25.
+                        Debit transactions of mutual funds & bonds get an additional discount of Rs 0.25.
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Pledging charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        ₹30 + GST per pledge request per ISIN.
+                        Rs 30 + GST per pledge request per ISIN.
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         AMC (Account maintenance charges)
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        For BSDA demat account: Zero charges if the holding value is less than ₹4,00,000. To learn more about BSDA,
+                        For BSDA demat account: Zero charges if the holding value is less than Rs 4,00,000. To learn more about BSDA,
                     </Paragraph>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        For non-BSDA demat accounts: ₹300/year + 18% GST charged quarterly (90 days). To learn more about AMC,
+                        For non-BSDA demat accounts: Rs 300/year + 18% GST charged quarterly (90 days). To learn more about AMC,
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Corporate action order charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        ₹20 plus GST will be charged for OFS / buyback / takeover / delisting orders placed through Console.
+                        Rs 20 plus GST will be charged for OFS / buyback / takeover / delisting orders placed through Console.
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Off-market transfer charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        ₹25 or 0.03% of the transfer value (whichever is higher).
+                        Rs 25 or 0.03% of the transfer value (whichever is higher).
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Physical CMR request
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        First CMR request is free. ₹20 + ₹100 (courier charge) + 18% GST for subsequent requests.
+                        First CMR request is free. Rs 20 + Rs 100 (courier charge) + 18% GST for subsequent requests.
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
                         Payment gateway charges
                     </Title>
                     <Paragraph style={{ textAlign: 'start' }}>
-                        ₹9 + GST (Not levied on transfers done via UPI)
+                        Rs 9 + GST (Not levied on transfers done via UPI)
                     </Paragraph>
 
                     <Title level={4} style={{ textAlign: 'start' }}>
@@ -168,7 +168,7 @@ const Charges = () => {
                             Disclaimer
                         </Title>
                         <Paragraph style={{ fontSize: '14px', textAlign: 'start', marginTop: '8px' }}>
-                            For Delivery based trades, a minimum of ₹0.01 will be charged per contract note. Clients who opt to receive physical contract notes will be charged ₹20 per contract note plus courier charges. Brokerage will not exceed the rates specified by SEBI and the exchanges. All statutory and regulatory charges will be levied at actuals. Brokerage is also charged on expired, exercised, and assigned options contracts. Free investments are available only for our retail individual clients. Companies, Partnerships, Trusts, and HUFs need to pay 0.1% or ₹20 (whichever is less) as delivery brokerage. A brokerage of 0.25% of the contract value will be charged for contracts where physical delivery happens. For netted off positions in physically settled contracts, a brokerage of 0.1% will be charged.
+                            For Delivery based trades, a minimum of Rs 0.01 will be charged per contract note. Clients who opt to receive physical contract notes will be charged Rs 20 per contract note plus courier charges. Brokerage will not exceed the rates specified by SEBI and the exchanges. All statutory and regulatory charges will be levied at actuals. Brokerage is also charged on expired, exercised, and assigned options contracts. Free investments are available only for our retail individual clients. Companies, Partnerships, Trusts, and HUFs need to pay 0.1% or Rs 20 (whichever is less) as delivery brokerage. A brokerage of 0.25% of the contract value will be charged for contracts where physical delivery happens. For netted off positions in physically settled contracts, a brokerage of 0.1% will be charged.
                         </Paragraph>
                     </div>
                 </Col>

@@ -177,14 +177,14 @@ const TransactionPanel = () => {
       dataIndex: 'pricePerUnit',
       key: 'pricePerUnit',
       align: 'center',
-      render: (price) => `₹${price.toFixed(2)}`,
+      render: (price) => `Rs${price.toFixed(2)}`,
     },
     {
       title: 'Total Amount',
       dataIndex: 'totalAmount',
       key: 'totalAmount',
       align: 'center',
-      render: (amount) => `₹${amount.toFixed(2)}`,
+      render: (amount) => `Rs${amount.toFixed(2)}`,
     },
     {
       title: 'Status',

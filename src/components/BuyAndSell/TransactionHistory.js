@@ -84,21 +84,25 @@ const TransactionHistory = () => {
       dataIndex: 'pricePerUnit',
       key: 'pricePerUnit',
       align: 'center',
-      render: (price) => `₹${price.toFixed(2)}`,
+      render: (price) => `Rs${price.toFixed(2)}`,
     },
     {
       title: 'Total Amount',
       dataIndex: 'totalAmount',
       key: 'totalAmount',
       align: 'center',
-      render: (total) => `₹${total.toFixed(2)}`,
+      render: (total) => `Rs${total.toFixed(2)}`,
     },
     {
       title: 'Transaction Fee',
       dataIndex: 'transactionFee',
+
+
+
+
       key: 'transactionFee',
       align: 'center',
-      render: (fee) => `₹${fee}`,
+      render: (fee) => `Rs${fee}`,
     },
     {
       title: 'Status',

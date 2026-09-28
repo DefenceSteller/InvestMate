@@ -175,7 +175,7 @@ const handleSell = async (stock, key, quantity, price) => {
   // SweetAlert2 confirmation dialog
   const { value: confirmed } = await Swal.fire({
     title: 'Confirm Sell',
-    text: `Are you sure you want to sell ${quantity} share${quantity > 1 ? 's' : ''} of ${stock} for a total amount of ₹${totalPrice}?`,
+    text: `Are you sure you want to sell ${quantity} share${quantity > 1 ? 's' : ''} of ${stock} for a total amount of Rs${totalPrice}?`,
     icon: 'warning',
     showCancelButton: true,
     confirmButtonText: 'Yes',

@@ -30,7 +30,7 @@ const Pricing = () => {
             style={{ borderRadius: '10px', boxShadow: '0 4px 16px rgba(0, 0, 0, 0.1)', }}>
             <h1 style={{ fontSize: '80px', color: '#ff0000' }}>₹0</h1>
             <h3 style={{ fontSize: '35px' }}>Free equity delivery</h3>
-            <p style={{ fontSize: '20px' }}>All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.</p>
+            <p style={{ fontSize: '20px' }}>All equity delivery investments (NSE, BSE), are absolutely free — Rs 0 brokerage.</p>
           </Card>
         </Col>
 
@@ -52,7 +52,7 @@ const Pricing = () => {
           <Card bordered={false} style={{ borderRadius: '10px', boxShadow: '0 4px 16px rgba(0, 0, 0, 0.1)', }}>
             <h1 style={{ fontSize: '80px', color: '#ff0000' }}>₹0</h1>
             <h3 style={{ fontSize: '35px' }}>Free direct MF</h3>
-            <p style={{ fontSize: '20px' }}>All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges.</p>
+            <p style={{ fontSize: '20px' }}>All direct mutual fund investments are absolutely free — Rs 0 commissions & DP charges.</p>
           </Card>
         </Col>
         <PricingTable />
